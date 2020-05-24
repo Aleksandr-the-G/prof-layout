@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 calc(50% - 570px);
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ececec;
+    box-shadow: 0px 0px 10px 0px #ececec;
+
+}
+
+.logo {
+    display: inline-block;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    line-height: 51px;
+    width: 165px;
+    padding-left: 72px;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 0.68px;
+    text-transform: uppercase;
+    color: #222222;
+    box-sizing: border-box;
+    margin-right: 40px;
+}
+
+.style__D {
+    font-weight: 900;
+    color: #f16d7f;
+}
+
+.search__form {
+    display: flex;
+    align-items: center;
+    border: solid 1px #e6e6e6;
+    border-radius: 4px;
+    height: 38px;
+    overflow: hidden;
+
+}
+
+.search_btn {
+    padding: 0px 9px 0px 15px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0.35px;
+    color: #222222;
+    border: none;
+    border-right: 1px solid #e6e6e6;
+    outline: none;
+}
+
+.fa-caret-down {
+    color: #838383;
+    margin-left: 3px;
+}
+
+.input_search {
+    width: 279px;
+    height: inherit;
+    border: none;
+    outline: none;
+    padding: 0px 16px;
+}
+
+.searchBtn {
+    height: inherit;
+    border: none;
+    border-left: 1px solid #e6e6e6;
+    background: none;
+    padding: 12px;
+}
+
+.fa-search {
+    color: #a4a4a4;
+}
+
+.headerCart {
+    margin-top: 8px;
+    margin-right: 24px;
+    margin-left: auto;
+}
+
+.accountBtn {
+    font-size: 15px;
+    line-height: 38px;
+    letter-spacing: 0.38px;
+    color: #ffffff;
+    padding: 0 12px 0 19px;
+    background-color: #f16d7f;
+    border: none;
+}
+
+.accountBtn i {
+    color: #ffffff;
+}
+
+/* меню навигации */
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navigation a:not(:last-child) {
+    margin-right: 45px;
+}
+
+/* Начало первого слайда */
+
+.slider_1 {
+    height: 614px;
+    background-color: #e8e8e8;
+    background-image: url(img/topHeaderBack.png);
+    background-repeat: no-repeat;
+    background-position: 772px 0;
+    background-size: 34.7%;
+    box-sizing: border-box;
+}
+
+.slider_1__content {
+    margin-top: 224px;
+    float: left;
+    border-left: 12px solid rgba(241, 109, 127, 1);
+    padding-left: 12px;
+}
+
+.slider_1__h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+    line-height: 45px;
+    margin-bottom: 12px;
+}
+
+.slider_1__h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgba(34, 34, 34, 1);
+    letter-spacing: 0.03em;
+    line-height: 33px;
+}
+
+.fashion {
+    color: #f16d7f;
+}
