@@ -319,3 +319,102 @@ a {
 .fa-long-arrow-alt-right {
     margin-left: 7px;
 }
+
+/* Начало четвертого слайда */
+
+.slider_4 {
+    height: 529px;
+    display: flex;
+    margin-bottom: 97px;
+}
+
+.slider_4_offer {
+    width: 767px;
+    height: 529px;
+    background-image: url(img/offer.png);
+}
+
+.slider_4_offer_text {
+    padding-top: 131px;
+    padding-left: 39px;
+}
+
+.slider_4_offer_text h2 {
+    font-size: 53.5px;
+    letter-spacing: 1.34px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.offer_style {
+    color: #f16d7f;
+}
+
+.slider_4_offer_text h3 {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+}
+
+.slider_4_icons_box {
+    width: 114px;
+    box-sizing: border-box;
+    padding-left: 36px;
+    background-color: #222224;
+}
+
+.slider_4_icon {
+    display: block;
+}
+
+.slider_4_icon_1 {
+    margin-top: 48px;
+}
+
+.slider_4_icon_2 {
+    margin-top: 124px;
+}
+
+.slider_4_icon_3 {
+    margin-top: 114px;
+}
+
+.slider_4_text {
+    width: 261px;
+    background-color: #222224;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+
+.slider_4_text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: #fbfbfb;
+}
+
+.slider_4_text p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    color: #fbfbfb;
+}
+
+.slider_4_text_h2-1 {
+    margin-top: 55px;
+}
+
+.slider_4_text_h2-2 {
+    margin-top: 62px;
+}
+
+.slider_4_text_h2-3 {
+    margin-top: 61px;
+}
+
+.slider_4_text_p {
+    margin-top: 17px;
+}
