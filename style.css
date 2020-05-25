@@ -173,3 +173,68 @@ a {
 .fashion {
     color: #f16d7f;
 }
+
+/* Начало второго слайда */
+
+.slider_2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 1021px;
+    box-sizing: border-box;
+    padding-top: 98px;
+    padding-bottom: 100px;
+}
+
+.slider_2_pict_1,
+.slider_2_pict_2,
+.slider_2_pict_3,
+.slider_2_pict_4 {
+    width: 560px;
+}
+
+.slider_2_pict_1 {
+    height: 542px;
+    background-image: url(img/for_men.png);
+}
+
+.slider_2_pict_2 {
+    height: 261px;
+    background-image: url(img/accesories.png);
+}
+
+.slider_2_pict_3 {
+    height: 261px;
+    background-image: url(img/women.png);
+}
+
+.slider_2_pict_4 {
+    height: 542px;
+    background-image: url(img/for_kids.png);
+}
+
+.slider_2_content {
+    background-color: #ffffff;
+    margin-top: 26px;
+    padding: 16px 19px;
+    float: left;
+}
+
+.slider_2_content_h3 {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.45px;
+    color: #222222;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 6px;
+}
+
+.slider_2_content_h2 {
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    color: #f16d7f;
+    text-transform: uppercase;
+    line-height: 1;
+}
