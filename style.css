@@ -184,7 +184,6 @@ a {
     height: 1021px;
     box-sizing: border-box;
     padding-top: 98px;
-    padding-bottom: 100px;
 }
 
 .slider_2_pict_1,
@@ -237,4 +236,86 @@ a {
     color: #f16d7f;
     text-transform: uppercase;
     line-height: 1;
+}
+
+/* Начало третьего слайда */
+
+.slider_3 {
+    height: 1195px;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+.slider_3_content {
+    height: 767px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.slider_3_h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+}
+
+.slider_3_p {
+    font-size: 14px;
+    color: #9f9f9f;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 60px;
+}
+
+.slider_3_card {
+    width: 261px;
+    height: 364px;
+    /* outline: 1px solid #000; */
+    position: relative;
+}
+
+.slider_3_card:hover {
+    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+.slider_3_card_h3 {
+    font-size: 13px;
+    color: #222222;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+}
+
+.slider_3_card_p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f16d7f;
+    line-height: 1;
+    margin-left: 8px;
+}
+
+.slider_3_btn_box {
+    margin-top: 73px;
+    text-align: center;
+}
+
+.slider_3_btn {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    background-color: #f16d7f;
+    padding: 17px 24px;
+    line-height: 1;
+}
+
+.fa-long-arrow-alt-right {
+    margin-left: 7px;
 }
