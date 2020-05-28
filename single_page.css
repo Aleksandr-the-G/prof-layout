@@ -18,18 +18,18 @@
 
 .arrivals_links {
     display: flex;
- 
+
 }
 
 .arrivals_link {
-font-size: 14px;
-font-weight: 300;
-font-stretch: normal;
-font-style: normal;
-line-height: 1;
-letter-spacing: normal;
-text-align: center;
-color: #636363;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #636363;
 }
 
 .arrivals_links p {
@@ -59,7 +59,7 @@ color: #636363;
     justify-content: space-between;
     align-items: center;
     background-color: #f7f7f7;
-} 
+}
 
 .arrivals_arrows {
     display: flex;
@@ -77,6 +77,137 @@ color: #636363;
 
 /* ARRIVAL DESCRIPTION  */
 
+.arrivals_description {
+    position: relative;
+    top: -89px;
+    width: 1141px;
+    padding-top: 73px;
+    padding-bottom: 122px;
+    text-align: center;
+    border: solid 1px #eaeaea;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.arrivals_description h2 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #f16d7f;
+    margin-bottom: 15px;
+}
+
+.arrivals_line_top {
+    width: 147px;
+    height: 1px;
+    border: solid 1px #eaeaea;
+    background-color: #ef5b70;
+    margin: 0 auto;
+
+}
+
+.arrivals_description h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-bottom: 67px;
+}
+
+.arrivals_description_p {
+    padding: 0 260px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    text-align: center;
+    color: #5e5e5e;
+    margin-bottom: 28px;
+}
+
+.arriv_product_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 380px;
+    margin-bottom: 37px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: #b9b9b9;
+}
 
 
+.arriv_product_info span {
+    color: #2f2f2f;
+}
 
+.arriv_product_price {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ef5b70;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.arrivals_line {
+    width: 642px;
+    border: 1px solid #eaeaea;
+    background-color: #fffffff;
+    margin: 0 auto;
+    margin-bottom: 63px;
+}
+
+
+.input_fields_box {
+    display: flex;
+    justify-content: space-between;
+    width: 537px;
+    margin: 0 auto;
+}
+
+.input_fields_box p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: #2f2f2f;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.input_fields_box input {
+    width: 144px;
+    height: 35px;
+    border: solid 1px #eaeaea;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    color: #bcbcbc;
+    outline: none;
+}
+
+.arrivals_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 537px;
+    height: 55px;
+    border: solid 1px #ef5b70;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ef5b70;
+    margin: 0 auto;
+    margin-top: 28px;
+    outline: none;
+}
+
+.arrivals_btn img {
+    margin-right: 15px;
+}
