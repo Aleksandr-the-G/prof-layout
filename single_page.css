@@ -155,9 +155,8 @@
 }
 
 .arrivals_line {
-    width: 642px;
+    width: 641px;
     border: 1px solid #eaeaea;
-    background-color: #fffffff;
     margin: 0 auto;
     margin-bottom: 63px;
 }
@@ -210,4 +209,67 @@
 
 .arrivals_btn img {
     margin-right: 15px;
+}
+
+/* YOU MAY LIKE */
+
+.additional_product_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 73px;
+}
+
+.additional_product h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 72px;
+}
+
+.additional_product_p {
+    font-size: 14px;
+    color: #9f9f9f;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 60px;
+}
+
+.additional_product_card {
+    width: 261px;
+    height: 364px;
+    position: relative;
+}
+
+.card_back {
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+}
+
+.additional_product_card:hover {
+    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+.additional_product_card_h3 {
+    font-size: 13px;
+    color: #222222;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+}
+
+.additional_product_card_p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f16d7f;
+    line-height: 1;
+    margin-left: 8px;
 }
