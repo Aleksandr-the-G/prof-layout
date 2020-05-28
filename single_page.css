@@ -1,0 +1,82 @@
+.arrivals {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: #f8f3f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrivals h2 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.arrivals_links {
+    display: flex;
+ 
+}
+
+.arrivals_link {
+font-size: 14px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+text-align: center;
+color: #636363;
+}
+
+.arrivals_links p {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #636363;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.arrivals_links span {
+    font-weight: bold;
+    color: #f16d7f;
+}
+
+/* ARRIVALS_SHOW */
+
+.arrivals_showing {
+    padding-top: 11px;
+    padding-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+} 
+
+.arrivals_arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    background-color: #d8d8d8;
+}
+
+.arrivals_arrows i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* ARRIVAL DESCRIPTION  */
+
+
+
+
