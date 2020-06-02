@@ -418,7 +418,7 @@ a {
     margin-top: 17px;
 }
 
-/* Начало пятого слайда */
+/* SUBSCRIBE */
 
 .slider_5 {
     display: flex;
@@ -537,7 +537,7 @@ a {
     outline: none;
 }
 
-/* Начало шестого слайда */
+/* Footer */
 
 .slider_6 {
     display: flex;
@@ -605,7 +605,6 @@ a {
     list-style-type: none;
 }
 
-/* Начало седьмого слайда */
 
 .slider_7 {
     display: flex;

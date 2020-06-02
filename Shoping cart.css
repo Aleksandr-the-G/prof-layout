@@ -1,0 +1,126 @@
+.cart_items_title {
+    padding-top: 90px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #eaeaea;
+}
+
+.cart_items_title_h2 {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -0.2px;
+    color: #222222;
+}
+
+.cart_items_title_right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_items_title_right h2 {
+    margin-left: 80px;
+}
+.cart_row {
+    padding-top: 22px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.cart_row_img {
+    display: flex;
+    width: 440px;
+}
+
+.cart_row_text {
+    box-sizing: border-box;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+.cart_row_text h3{
+    margin-bottom: 33px;
+    font-size: 13px;
+    line-height: 1;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.cart_row_text p{
+    font-size: 13px;
+    line-height: 1.54;
+    color: #575757;
+}
+
+.cart_row_span {
+    font-weight: 300;
+    color: #6f6e6e;
+   margin-left: 10px;
+}
+
+.cart_row_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart_row_cross {
+    width: 15px;
+    height: 15px;
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.cart_row_p_1,
+.cart_row_p_2,
+.cart_row_p_3,
+.cart_row_p_4 {
+    /* width: 100px; */
+    text-align:center;
+    box-sizing: border-box;
+    margin-top: 7px;
+    font-size: 13px;
+    color: #656565;
+}
+
+.cart_row_p_2_border {
+    border: solid 1px #eaeaea;
+    box-sizing: border-box;
+    padding: 10px 24px;
+}
+
+
+.cart_row_p_2 {
+    margin-left: 107px;
+}
+
+.cart_row_p_3 {
+    margin-left: 98px;
+}
+
+.cart_row_p_4 {
+    margin-left: 110px;
+}
+
+.cart_row_div {
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin-top: 7px;
+    font-size: 11px;
+    margin-left: 29px;
+    margin-right: 17px;
+    color: #ffffff;
+}
+
+.cart_row_line {
+    height: 1px;
+    background-color: #eaeaea;
+}
