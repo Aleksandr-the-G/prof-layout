@@ -115,23 +115,69 @@ a {
 
 /* меню навигации */
 
-.navigation {
+.menu {
+    list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: #222222;
-    font-size: 14px;
-    font-weight: 700;
     text-transform: uppercase;
+    justify-content: center;
 }
 
-.navigation a:not(:last-child) {
-    margin-right: 45px;
+.menu__link {
+    padding: 20px;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #222222;
+    line-height: 26px;
+}
+
+.menu__list {
+    position: relative;
+}
+
+.menu__list:hover .drop {
+    display: flex;
+}
+
+.drop {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    top: 48px;
+    display: none;
+}
+
+.drop__last {
+    right: 0;
+}
+
+.drop__h3 {
+    font-size: 14px;
+    color: #232323;
+    letter-spacing: 0.03em;
+    line-height: 32px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 8px;
+    width: 234px;
+}
+
+.drop__ul {
+    list-style-type: none;
+}
+
+.drop__a {
+    font-size: 14px;
+    color: #646464;
+    letter-spacing: 0.03em;
+    line-height: 28px;
+    text-transform: none;
+
+}
+
+.drop__a:hover {
+    color: #f16d7f;
 }
 
 /* Начало первого слайда */
