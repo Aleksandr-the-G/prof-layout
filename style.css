@@ -106,11 +106,21 @@ a {
     color: #ffffff;
     padding: 0 12px 0 19px;
     background-color: #f16d7f;
-    border: none;
+    border: 1px solid #ffffff;
 }
 
 .accountBtn i {
     color: #ffffff;
+}
+
+.accountBtn:hover {
+    background-color: #ffffff;
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
+}
+
+.accountBtn:hover i {
+    color: #f16d7f;
 }
 
 /* меню навигации */
@@ -359,6 +369,13 @@ a {
     background-color: #f16d7f;
     padding: 17px 24px;
     line-height: 1;
+    border: 1px solid #ffffff;
+}
+
+.slider_3_btn:hover {
+    border: 1px solid #f16d7f;
+    background-color: #ffffff;
+    color: #f16d7f;
 }
 
 .fa-long-arrow-alt-right {
@@ -583,6 +600,13 @@ a {
     outline: none;
 }
 
+.subscribre__Btn:hover {
+    background-color: #ffffff;
+    color: #f16d7f;
+
+}
+
+
 /* Footer */
 
 .slider_6 {
@@ -615,9 +639,11 @@ a {
 .slider_6_col_2 {
     padding-left: 64px;
 }
+
 .slider_6_col_3 {
     padding-left: 129px;
 }
+
 .slider_6_col_4 {
     padding-left: 80px;
 }
@@ -647,6 +673,10 @@ a {
     color: #898989;
 }
 
+.slider_6_links:hover {
+    color: #f16d7f;
+}
+
 .slider_6_list {
     list-style-type: none;
 }
@@ -673,3 +703,18 @@ a {
     width: 185px;
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #b2b2b2;
+}
+
+.icons:hover {
+    background-color: #f16d7f;
+    color: #f7f7f8;
+}
