@@ -11,16 +11,17 @@ details summary::-webkit-details-marker {
 }
 
 /* Добавляем собственный маркер для закрытого состояния */
-/* details summary:after {
-    content: '\f0fe';
+details summary:after {
+    content: '\f0d7';
     font-family: "Font Awesome 5 free";
-    margin-left: 7px;
-  } */
+    margin-left: auto;
+    margin-right: 10px;
+  }
 
 /* Добавляем собственный маркер для открытого состояния */
-/* details[open] summary:after {
-    content: '\f146';
-  } */
+details[open] summary:after {
+    content: '\f0d8';
+  }
 
 .product_left details:not(:last-child) {
     margin-bottom: 16px;
@@ -45,11 +46,6 @@ details summary::-webkit-details-marker {
 .product_left details[open] summary {
     color: #ef5b70;
 
-}
-
-.product_left details summary span {
-    margin-left: auto;
-    margin-right: 10px;
 }
 
 .product_left details[open] summary i {
