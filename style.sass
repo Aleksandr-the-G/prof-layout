@@ -1,21 +1,21 @@
-* 
+$mainColor: #f16d7f
+
+*
   margin: 0
   padding: 0
 
-
-body 
+body
   font-family: 'Lato', sans-serif
 
-
-a 
+a
   text-decoration: none
 
 
-.container 
+.container
   padding: 0 calc(50% - 570px)
 
 
-.header 
+.header
   height: 100px
   display: flex
   flex-direction: row
@@ -24,8 +24,7 @@ a
   box-shadow: 0 0 10px 0 #ececec
 
 
-
-.logo 
+.logo
   display: inline-block
   background-image: url(img/logo.png)
   background-repeat: no-repeat
@@ -41,12 +40,12 @@ a
   margin-right: 40px
 
 
-.style__D 
+.style__D
   font-weight: 900
-  color: #f16d7f
+  color: $mainColor
 
 
-.search__form 
+.search__form
   display: flex
   align-items: center
   border: solid 1px #e6e6e6
@@ -55,8 +54,7 @@ a
   overflow: hidden
 
 
-
-.search_btn 
+.search_btn
   padding: 0 9px 0 15px
   font-size: 14px
   font-weight: 300
@@ -68,12 +66,12 @@ a
   outline: none
 
 
-.fa-caret-down 
+.fa-caret-down
   color: #838383
   margin-left: 3px
 
 
-.input_search 
+.input_search
   width: 279px
   height: inherit
   border: none
@@ -81,7 +79,7 @@ a
   padding: 0 16px
 
 
-.searchBtn 
+.searchBtn
   height: inherit
   border: none
   border-left: 1px solid #e6e6e6
@@ -89,50 +87,48 @@ a
   padding: 12px
 
 
-.fa-search 
+.fa-search
   color: #a4a4a4
 
 
-.headerCart 
+.headerCart
   margin-top: 8px
   margin-right: 24px
   margin-left: auto
 
 
-.accountBtn 
+.accountBtn
   font-size: 15px
   line-height: 38px
   letter-spacing: 0.38px
   color: #ffffff
   padding: 0 12px 0 19px
-  background-color: #f16d7f
+  background-color: $mainColor
   border: 1px solid #ffffff
+  outline: none
 
+  &:hover
+    background-color: #ffffff
+    color: $mainColor
+    border: 1px solid $mainColor
 
-.accountBtn i 
-  color: #ffffff
+  i
+    color: #ffffff
 
-
-.accountBtn:hover 
-  background-color: #ffffff
-  color: #f16d7f
-  border: 1px solid #f16d7f
-
-
-.accountBtn:hover i 
-  color: #f16d7f
+  &:hover i
+    color: $mainColor
 
 
 /* меню навигации */
 
-.menu 
+.menu
   list-style-type: none
   display: flex
   text-transform: uppercase
   justify-content: center
 
 
-.menu__link 
+.menu__link
   padding: 20px
   display: block
   font-size: 14px
@@ -141,15 +137,15 @@ a
   line-height: 26px
 
 
-.menu__list 
+.menu__list
   position: relative
 
 
-.menu__list:hover .drop 
+.menu__list:hover .drop
   display: flex
 
 
-.drop 
+.drop
   position: absolute
   background-color: #ffffff
   border-radius: 5px
@@ -158,11 +154,11 @@ a
   display: none
 
 
-.drop__last 
+.drop__last
   right: 0
 
 
-.drop__h3 
+.drop__h3
   font-size: 14px
   color: #232323
   letter-spacing: 0.03em
@@ -173,11 +169,11 @@ a
   width: 234px
 
 
-.drop__ul 
+.drop__ul
   list-style-type: none
 
 
-.drop__a 
+.drop__a
   font-size: 14px
   color: #646464
   letter-spacing: 0.03em
@@ -185,9 +181,8 @@ a
   text-transform: none
 
 
-
-.drop__a:hover 
-  color: #f16d7f
+.drop__a:hover
+  color: $mainColor
 
 /*ARRIVALS*/
 
@@ -205,13 +200,12 @@ a
   font-weight: 900
   line-height: 1
   letter-spacing: normal
-  color: #f16d7f
+  color: $mainColor
   text-transform: uppercase
 
 
 .arrivals_links
   display: flex
-
 
 
 .arrivals_link
@@ -240,12 +234,12 @@ a
 
 .arrivals_links span
   font-weight: bold
-  color: #f16d7f
+  color: $mainColor
 
 
 /* Начало первого слайда */
 
-.slider_1 
+.slider_1
   height: 614px
   background-color: #e8e8e8
   background-image: url(img/promo_back.png)
@@ -254,14 +248,14 @@ a
   box-sizing: border-box
 
 
-.slider_1__content 
+.slider_1__content
   margin-top: 224px
   float: left
   border-left: 12px solid rgba(241, 109, 127, 1)
   padding-left: 12px
 
 
-.slider_1__h1 
+.slider_1__h1
   font-size: 60px
   font-weight: 900
   color: rgba(34, 34, 34, 1)
@@ -270,7 +264,7 @@ a
   margin-bottom: 12px
 
 
-.slider_1__h2 
+.slider_1__h2
   font-size: 40px
   font-weight: 900
   color: rgba(34, 34, 34, 1)
@@ -278,13 +272,13 @@ a
   line-height: 33px
 
 
-.fashion 
-  color: #f16d7f
+.fashion
+  color: $mainColor
 
 
 /* Начало второго слайда */
 
-.slider_2 
+.slider_2
   display: flex
   flex-flow: column wrap
   justify-content: space-between
@@ -297,38 +291,38 @@ a
 .slider_2_pict_1,
 .slider_2_pict_2,
 .slider_2_pict_3,
-.slider_2_pict_4 
+.slider_2_pict_4
   width: 560px
 
 
-.slider_2_pict_1 
+.slider_2_pict_1
   height: 542px
   background-image: url(img/for_men.png)
 
 
-.slider_2_pict_2 
+.slider_2_pict_2
   height: 261px
   background-image: url(img/accesories.png)
 
 
-.slider_2_pict_3 
+.slider_2_pict_3
   height: 261px
   background-image: url(img/women.png)
 
 
-.slider_2_pict_4 
+.slider_2_pict_4
   height: 542px
   background-image: url(img/for_kids.png)
 
 
-.slider_2_content 
+.slider_2_content
   background-color: #ffffff
   margin-top: 26px
   padding: 16px 19px
   float: left
 
 
-.slider_2_content_h3 
+.slider_2_content_h3
   font-size: 18px
   font-weight: 900
   letter-spacing: 0.45px
@@ -338,23 +332,23 @@ a
   margin-bottom: 6px
 
 
-.slider_2_content_h2 
+.slider_2_content_h2
   font-size: 30px
   letter-spacing: 0.75px
-  color: #f16d7f
+  color: $mainColor
   text-transform: uppercase
   line-height: 1
 
 
 /* Начало третьего слайда */
 
-.slider_3 
+.slider_3
   height: 1195px
   box-sizing: border-box
   padding-top: 100px
 
 
-.slider_3_content 
+.slider_3_content
   height: 767px
   display: flex
   flex-wrap: wrap
@@ -362,7 +356,7 @@ a
   align-content: space-between
 
 
-.slider_3_h2 
+.slider_3_h2
   font-size: 30px
   font-weight: bold
   text-align: center
@@ -371,7 +365,7 @@ a
   margin-bottom: 16px
 
 
-.slider_3_p 
+.slider_3_p
   font-size: 14px
   color: #9f9f9f
   text-align: center
@@ -382,127 +376,139 @@ a
 .slider_3_card
   width: 261px
   height: 364px
-  /* outline: 1px solid #000 */
   position: relative
+  &:hover
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+  &:hover .product_img
+    filter: brightness(40%)
+  &:hover .add_to_cart
+    display: flex
+  &_h3
+    font-size: 13px
+    color: #222222
+    text-transform: uppercase
+    line-height: 1
+    margin-top: 20px
+    margin-bottom: 15px
+    margin-left: 8px
+  &_p
+    font-size: 16px
+    font-weight: bold
+    color: $mainColor
+    line-height: 1
+    margin-left: 8px
+
+.add_to_cart
+  position: absolute
+  top: 97px
+  left: 70px
+  border: 1px solid #ffffff
+  display: none
+  align-items: center
+  padding: 10px 13px
+  color: #ffffff
+  &:hover
+    box-shadow: 0 0 6px #ffffff
+  .cart_w
+    margin-right: 10px
 
 
-.slider_3_card:hover 
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
 
-
-.slider_3_card_h3 
-  font-size: 13px
-  color: #222222
-  text-transform: uppercase
-  line-height: 1
-  margin-top: 20px
-  margin-bottom: 15px
-  margin-left: 8px
-
-
-.slider_3_card_p 
-  font-size: 16px
-  font-weight: bold
-  color: #f16d7f
-  line-height: 1
-  margin-left: 8px
-
-
-.slider_3_btn_box 
+.slider_3_btn_box
   margin-top: 73px
   text-align: center
 
 
-.slider_3_btn 
+.slider_3_btn
   text-decoration: none
   font-size: 16px
   font-weight: bold
   letter-spacing: 0.4px
   color: #ffffff
-  background-color: #f16d7f
+  background-color: $mainColor
   padding: 17px 24px
   line-height: 1
   border: 1px solid #ffffff
 
 
-.slider_3_btn:hover 
-  border: 1px solid #f16d7f
+.slider_3_btn:hover
+  border: 1px solid $mainColor
   background-color: #ffffff
-  color: #f16d7f
+  color: $mainColor
 
 
-.fa-long-arrow-alt-right 
+.fa-long-arrow-alt-right
   margin-left: 7px
 
 
 /* Начало четвертого слайда */
 
-.slider_4 
+.slider_4
   height: 529px
   display: flex
   margin-bottom: 97px
 
 
-.slider_4_offer 
+.slider_4_offer
   width: 767px
   height: 529px
   background-image: url(img/offer.png)
 
 
-.slider_4_offer_text 
+.slider_4_offer_text
   padding-top: 131px
   padding-left: 39px
 
 
-.slider_4_offer_text h2 
+.slider_4_offer_text h2
   font-size: 53.5px
   letter-spacing: 1.34px
   font-weight: bold
   color: #ffffff
 
 
-.offer_style 
-  color: #f16d7f
+.offer_style
+  color: $mainColor
 
 
-.slider_4_offer_text h3 
+.slider_4_offer_text h3
   font-size: 32px
   font-weight: bold
   letter-spacing: 0.8px
   color: #ffffff
 
 
-.slider_4_icons_box 
+.slider_4_icons_box
   width: 114px
   box-sizing: border-box
   padding-left: 36px
   background-color: #222224
 
 
-.slider_4_icon 
+.slider_4_icon
   display: block
 
 
-.slider_4_icon_1 
+.slider_4_icon_1
   margin-top: 48px
 
 
-.slider_4_icon_2 
+.slider_4_icon_2
   margin-top: 124px
 
 
-.slider_4_icon_3 
+.slider_4_icon_3
   margin-top: 114px
 
 
-.slider_4_text 
+.slider_4_text
   width: 261px
   background-color: #222224
   box-sizing: border-box
   padding-right: 40px
 
 
-.slider_4_text h2 
+.slider_4_text h2
   font-size: 20px
   font-weight: bold
   line-height: 1
@@ -510,7 +516,7 @@ a
   color: #fbfbfb
 
 
-.slider_4_text p 
+.slider_4_text p
   font-size: 14px
   font-weight: 300
   line-height: 1.71
@@ -518,25 +524,25 @@ a
   color: #fbfbfb
 
 
-.slider_4_text_h2-1 
+.slider_4_text_h2-1
   margin-top: 55px
 
 
-.slider_4_text_h2-2 
+.slider_4_text_h2-2
   margin-top: 62px
 
 
-.slider_4_text_h2-3 
+.slider_4_text_h2-3
   margin-top: 61px
 
 
-.slider_4_text_p 
+.slider_4_text_p
   margin-top: 17px
 
 
 /* SUBSCRIBE */
 
-.slider_5 
+.slider_5
   display: flex
   height: 438px
   background-image: url(img/surfer.png)
@@ -547,25 +553,25 @@ a
   padding-top: 110px
 
 
-.slider_5_left 
+.slider_5_left
   display: flex
   width: 50%
 
 
-.slider_5_face 
+.slider_5_face
   width: 83px
   height: 83px
   background-image: url(img/face.png)
   border-radius: 50%
 
 
-.slider_5_text 
+.slider_5_text
   width: 390px
   margin-left: 28px
   margin-top: 5px
 
 
-.slider_5_text p:nth-child(1) 
+.slider_5_text p:nth-child(1)
 
   font-size: 16px
   font-style: italic
@@ -574,17 +580,17 @@ a
   color: #222224
 
 
-.slider_5_text p:nth-child(2) 
+.slider_5_text p:nth-child(2)
   margin-top: 19px
 
   font-size: 16px
   font-weight: bold
   line-height: 1.63
   letter-spacing: 0.4px
-  color: #f16d7f
+  color: $mainColor
 
 
-.slider_5_text p:nth-child(3) 
+.slider_5_text p:nth-child(3)
   font-size: 12px
   font-weight: 300
   line-height: 1.17
@@ -592,7 +598,7 @@ a
   color: #222224
 
 
-.slider_5_right 
+.slider_5_right
   width: 50%
   display: flex
   flex-wrap: wrap
@@ -600,7 +606,7 @@ a
   align-content: center
 
 
-.slider_5_right h3 
+.slider_5_right h3
   margin-top: 35px
   font-size: 24px
   letter-spacing: 0.6px
@@ -610,7 +616,7 @@ a
   text-transform: uppercase
 
 
-.slider_5_right p 
+.slider_5_right p
   margin-top: 9px
   font-size: 14px
   letter-spacing: 0.35px
@@ -618,7 +624,7 @@ a
   color: #222224
 
 
-.slider_5_right form 
+.slider_5_right form
   margin-top: 35px
   display: flex
   align-items: center
@@ -629,7 +635,7 @@ a
   overflow: hidden
 
 
-.subscribre__Field 
+.subscribre__Field
   width: 222px
   font-size: 14px
   line-height: 1
@@ -641,28 +647,25 @@ a
   outline: none
 
 
-
-.subscribre__Btn 
+.subscribre__Btn
   font-size: 15px
   line-height: 46px
   letter-spacing: 0.38px
   color: #ffffff
   padding: 0 20px 0 20px
-  background-color: #f16d7f
+  background-color: $mainColor
   border: none
   outline: none
 
 
-.subscribre__Btn:hover 
+.subscribre__Btn:hover
   background-color: #ffffff
-  color: #f16d7f
-
-
+  color: $mainColor
 
 
 /* Footer */
 
-.slider_6 
+.slider_6
   display: flex
 
   height: 458px
@@ -670,7 +673,7 @@ a
   padding-top: 109px
 
 
-.logo_bottom 
+.logo_bottom
   display: inline-block
   background-image: url(img/logo.png)
   background-repeat: no-repeat
@@ -685,32 +688,32 @@ a
   box-sizing: border-box
 
 
-.slider_6_col_1 
+.slider_6_col_1
   width: 427px
 
 
-.slider_6_col_2 
+.slider_6_col_2
   padding-left: 64px
 
 
-.slider_6_col_3 
+.slider_6_col_3
   padding-left: 129px
 
 
-.slider_6_col_4 
+.slider_6_col_4
   padding-left: 80px
 
 
-.slider_6_h3 
+.slider_6_h3
   margin-bottom: 45px
   margin-top: 10px
   font-size: 18px
   font-weight: bold
   letter-spacing: 0.45px
-  color: #f16d7f
+  color: $mainColor
 
 
-.slider_6_p 
+.slider_6_p
   margin-top: 29px
   font-size: 14px
   font-weight: 300
@@ -719,30 +722,29 @@ a
   color: #898989
 
 
-.slider_6_links 
+.slider_6_links
   font-size: 16px
   line-height: 2.63
   letter-spacing: 0.4px
   color: #898989
 
 
-.slider_6_links:hover 
-  color: #f16d7f
+.slider_6_links:hover
+  color: $mainColor
 
 
-.slider_6_list 
+.slider_6_list
   list-style-type: none
 
 
-
-.slider_7 
+.slider_7
   display: flex
   justify-content: space-between
   align-items: center
   background-color: #e6e6e6
 
 
-.slider_7 p 
+.slider_7 p
   font-size: 16px
   line-height: 1
   padding: 32px 0
@@ -750,13 +752,13 @@ a
   color: #7a7a7a
 
 
-.socials 
+.socials
   display: flex
   justify-content: space-between
   width: 185px
 
 
-.icons 
+.icons
   display: flex
   justify-content: center
   align-items: center
@@ -767,8 +769,8 @@ a
   color: #b2b2b2
 
 
-.icons:hover 
-  background-color: #f16d7f
+.icons:hover
+  background-color: $mainColor
   color: #f7f7f8
 
 @import "product"

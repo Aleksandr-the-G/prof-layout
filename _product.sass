@@ -15,6 +15,7 @@ details summary::-webkit-details-marker
 //Добавляем собственный маркер для закрытого состояния
 details summary:after 
   content: '\f0d7'
+  font-family: "Font Awesome 5 free"
   margin-left: auto
   margin-right: 10px
 
@@ -35,7 +36,7 @@ details[open] summary:after
   width: 243px
   height: 37px
   border-bottom: solid 1px #ebebeb
-  border-left: 5px solid #ef5b70
+  border-left: 5px solid $mainColor
   box-sizing: border-box
   padding-left: 10px
   font-size: 14px
@@ -45,12 +46,12 @@ details[open] summary:after
 
 
 .product_left details[open] summary 
-  color: #ef5b70
+  color: $mainColor
 
 
 
 .product_left details[open] summary i 
-  color: #ef5b70
+  color: $mainColor
 
 .product_left details ul 
   list-style: none
@@ -64,7 +65,7 @@ details[open] summary:after
 
 
 .details_link:hover 
-  color: #ef5b70
+  color: $mainColor
 
 
 .product_right 
@@ -96,7 +97,7 @@ details[open] summary:after
 
 
 .product_settings_link:hover 
-  color: #ef5b70
+  color: $mainColor
 
 
 .prod_setng_link_marg 
@@ -152,18 +153,16 @@ details[open] summary:after
   justify-content: space-between
   flex-wrap: wrap
   padding-top: 48px
-
-
-.product_card 
-  width: 261px
-  height: 364px
-  /* outline: 1px solid #000 */
-  position: relative
-
-
-.product_card:hover 
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
-
+  .product_card
+    width: 261px
+    height: 364px
+    position: relative
+    &:hover
+      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+    &:hover .product_img
+      filter: brightness(40%)
+    &:hover .add_to_cart
+      display: flex
 
 .product_card_h3 
   font-size: 13px
@@ -178,7 +177,7 @@ details[open] summary:after
 .product_card_p 
   font-size: 16px
   font-weight: bold
-  color: #f16d7f
+  color: $mainColor
   line-height: 1
   margin-left: 8px
 
@@ -197,15 +196,15 @@ details[open] summary:after
 .product_pages_btn 
   padding: 13px 45px
   border-radius: 3px
-  border: solid 1px #ef5b70
+  border: solid 1px $mainColor
   background-color: #ffffff
   font-size: 16px
   font-weight: 300
-  color: #ef5b70
+  color: $mainColor
 
 
 .product_pages_btn:hover 
-  background-color: #ef5b70
+  background-color: $mainColor
   color: #ffffff
 
 
